@@ -2,7 +2,23 @@
 <resources>
 
     <string name="app_name">Voting</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_info">Info</string>
+    <string name="info"><![CDATA[
+        <h1>Voting</h1>
+        <p>&copy; Johan v. Forstner 2014</p>
+        
+        <p>Diese App nutzt folgende Open-Source-Bibliotheken:</p>
+        <p><a href="https://github.com/Prototik/HoloEverywhere">HoloEverywhere</a> von Sergey Shatunov unter der <a href="https://raw.github.com/Prototik/HoloEverywhere/master/LICENSE">MIT-Lizenz</a><br/>
+        <a href="https://bitbucket.org/danielnadeau/holographlibrary/">HoloGraphLibrary</a> von Daniel Nadeau unter der <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0 Lizenz</a></p>
+        
+        <p>Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU General Public License, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren, entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren Version.</p>
+		<p>Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.</p>
+		<p>Ein Exemplar der GNU General Public License finden Sie auf <a href="http://www.gnu.org/licenses/gpl-3.0">http://www.gnu.org/licenses/gpl-3.0</a></p>.]]></string>
+		
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="info_title">Info</string>
 
 </resources>

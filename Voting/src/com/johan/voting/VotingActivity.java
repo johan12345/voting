@@ -23,6 +23,7 @@ import org.holoeverywhere.widget.Toast;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
@@ -102,6 +103,12 @@ public class VotingActivity extends Activity {
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
+		switch (id) {
+		case R.id.action_info:
+			Intent intent = new Intent(this, InfoActivity.class);
+			startActivity(intent);
+			break;
+		}
 		return super.onOptionsItemSelected(item);
 	}
 	

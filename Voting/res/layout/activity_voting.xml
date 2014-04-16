@@ -1,6 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="8dp"
     android:orientation="vertical" >
     
     <com.echo.holographlibrary.BarGraph
@@ -16,28 +17,28 @@
             android:id="@+id/buttonA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="A"
+            android:text="@string/A"
             android:layout_weight="1" />
 
         <Button
             android:id="@+id/buttonB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="B"
+            android:text="@string/B"
             android:layout_weight="1" />
 
         <Button
             android:id="@+id/buttonC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="C"
+            android:text="@string/C"
             android:layout_weight="1" />
 
         <Button
             android:id="@+id/buttonD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="D"
+            android:text="@string/D"
             android:layout_weight="1" />
 
     </LinearLayout>
