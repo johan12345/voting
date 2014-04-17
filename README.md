@@ -5,3 +5,5 @@ Eine einfache Android-App, die auf das [Abstimmungssystem](http://www.ieap.uni-k
 
 **English:**
 This is an Android app for a voting site used in some physics lectures at Kiel University, Germany
+
+Play Store: https://play.google.com/store/apps/details?id=com.johan.voting
